@@ -1,9 +1,9 @@
-﻿# Legacy Worker & Database Artifacts
+# Archival Backend Artifacts
 
-This directory contains previous backend exploration files for the Ezhunai membership service (Cloudflare Worker + D1 / Drizzle ORM).
+This directory contains previous backend prototypes and migration exploration files for the Ezhunai membership service (Cloudflare Worker + D1 / Drizzle ORM).
 
 ### Context
-- The current Ezhunai website is 100% static and privacy-first.
-- All join flows open our Discord community invitation directly: https://discord.gg/8Pd6nUmWFy
-- No user personal records are collected or stored on the website.
-- These source files are preserved here for historical reference and future full-stack community tool exploration.
+- The production Ezhunai website is 100% static, fast, and privacy-first.
+- All community onboarding navigates directly to our official Discord server: https://discord.gg/8Pd6nUmWFy
+- No personal user records or database connections are utilized by the static production client.
+- These source files are maintained exclusively for historical reference and potential future full-stack community tooling.

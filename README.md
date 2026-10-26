@@ -1,130 +1,168 @@
 <div align="center">
 
-# Ezhunai · எழுநை
-### *Learn together. Build together. Rise together.*
+<img src="assets/ezhunai-brand-poster-light.jpg" alt="Ezhunai — Learn together. Build together. Rise together." width="100%" />
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![GitHub Pages](https://img.shields.io/badge/Deployed%20with-GitHub%20Pages-222222?logo=github&logoColor=white)](https://ezhunai.isroot.in)
-[![CI Check](https://github.com/Ezhunai/website/actions/workflows/ci.yml/badge.svg)](https://github.com/Ezhunai/website/actions/workflows/ci.yml)
-[![Discord](https://img.shields.io/badge/Discord-Join%20Community-5865F2?logo=discord&logoColor=white)](https://discord.gg/8Pd6nUmWFy)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-Community-25D366?logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/LVGGC3lCBJG78k4rkcPijB)
-[![Website](https://img.shields.io/badge/Website-ezhunai.isroot.in-354d30)](https://ezhunai.isroot.in)
+<br/><br/>
+
+[![License](https://img.shields.io/badge/License-MIT-black.svg?style=flat-square)](LICENSE)
+[![GitHub Pages](https://img.shields.io/badge/Deployment-GitHub%20Pages-black.svg?style=flat-square)](https://ezhunai.isroot.in)
+[![CI Status](https://img.shields.io/github/actions/workflow/status/Ezhunai/website/ci.yml?branch=main&label=CI&style=flat-square)](https://github.com/Ezhunai/website/actions/workflows/ci.yml)
+[![Discord](https://img.shields.io/badge/Discord-Community-black.svg?style=flat-square&logo=discord&logoColor=white)](https://discord.gg/8Pd6nUmWFy)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-Community-black.svg?style=flat-square&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/LVGGC3lCBJG78k4rkcPijB)
 
 <br/>
 
-> **Ezhunai is a Tamil-rooted, globally welcoming peer-to-peer learning community built around a simple belief: everyone has something to learn, and everyone has something to share.**
+**A Tamil-rooted, globally welcoming peer-to-peer learning community.**  
+*Built around the principle that everyone has something to learn, and everyone has something to share.*
 
 </div>
 
 ---
 
-## 📖 The Name and Identity
+## Overview
 
-The name **Ezhunai** is born from two Tamil words:
+Ezhunai is a community initiative designed to bring curious minds together to exchange knowledge, explore interdisciplinary interests, develop practical skills, and collaborate on ideas.
 
-| Tamil | Transliteration | Meaning |
-| :---: | :---: | :--- |
-| **எழு** | *Ezhu* | To rise, grow, awaken, or advance forward |
-| **இணை** | *Inai* | To connect, unite, or come together |
+The initiative does not operate as a conventional school, an academy, or a commercial course provider. Instead, it fosters an environment of equals where members participate simultaneously as learners and teachers.
+
+While deeply rooted in Tamil cultural identity, the community maintains an open, inclusive global circle. We welcome individuals across all cultures, languages, and technical proficiencies, using English as an inclusive medium of collaboration whenever necessary.
+
+---
+
+## Etymology and Identity
+
+The name **Ezhunai** reflects the synthesis of two Tamil words:
+
+| Tamil Root | Transliteration | Translation & Significance |
+| :--- | :--- | :--- |
+| **எழு** | *Ezhu* | To rise, awaken, grow, or advance forward |
+| **இணை** | *Inai* | To connect, unite, or come together as equals |
 | **எழுநை** | **Ezhunai** | **Rise Together** |
 
 > *\"கற்றது கைமண் அளவு, கல்லாதது உலகளவு\"*  
-> *(What we have learned is like a handful of sand; what we have yet to learn is like the size of the world).*  
-> It reminds us to remain humble and curious, knowing that however much we learn, there is always more to discover and wisdom to gain from one another.
+> *(What we have learned is like a handful of sand; what we have yet to learn is as vast as the world).*  
+> This proverb serves as our guiding reminder to remain humble and curious, recognizing that knowledge expands through collective exchange.
 
 ---
 
-## 🌟 Why Ezhunai Exists
+## Founding Principles
 
-Meaningful learning happens through other people. A person may have a question that someone else can answer. One person may understand design while another knows programming. Someone may be good at explaining concepts, while another brings a completely fresh perspective.
+1. **Mutual Learning**  
+   Learning is treated as an active conversation rather than passive consumption. Everyone brings unique insights regardless of formal credentials.
 
-Yet people often learn in isolation, feel they must already be experts before participating, or struggle to find peers across diverse disciplines.
+2. **Curiosity Over Perfection**  
+   Beginners are welcomed without hesitation. Incomplete work, raw questions, and iterative experiments are treated as valuable learning opportunities.
 
-Ezhunai creates a collaborative environment addressing these challenges:
-- **Breaking Isolation**: Learning through conversation, activities, and shared experiments.
-- **Welcoming Beginners**: No portfolio or certificates required; bring your curiosity.
-- **Interdisciplinary Synergy**: Bringing together tech, design, writing, business, and science.
-- **Authentic Growth**: Welcoming unfinished ideas, practice sessions, and lessons learned from failure.
-- **Tamil Roots, Global Circle**: Rooted in cultural identity while welcoming people everywhere across languages.
+3. **Interdisciplinary Synergy**  
+   Disciplines are not partitioned into rigid categories. Developers, designers, writers, artists, and business builders collaborate within a single unified community.
 
----
-
-## 🚀 Technical Highlights
-
-- ⚡ **Pure Vanilla Stack**: Semantic HTML5, modern CSS3, and ES6+ JavaScript with zero build pipeline needed.
-- 📱 **Mobile & Tablet Optimized**: Fluid typography, responsive grids, and touch-sensitive interactive card tracks.
-- ♿ **Accessible by Default**: Keyboard navigable menus (Escape, focus trapping), ARIA state toggles, and high-contrast editorial typography.
-- 🌿 **Motion Aware**: Respects OS motion preferences (prefers-reduced-motion: reduce) with user controls to pause/resume motion.
-- 🌐 **GitHub Pages Native**: Pre-configured with CNAME for ezhunai.isroot.in and .nojekyll for direct static serving.
-- 🤖 **AI & Agent Discovery**: Includes [/llm.txt](llm.txt) and [/llms-full.txt](llms-full.txt), XML sitemaps, and Schema.org JSON-LD structured data.
+4. **Privacy and Respect**  
+   Participation does not require invasive personal disclosure or tracking. Interactions center around ideas, projects, and positive peer contribution.
 
 ---
 
-## 📁 Repository Structure
+## Technical Architecture
+
+The Ezhunai main website is engineered with a strict zero-dependency philosophy, ensuring longevity, rapid rendering, and straightforward maintenance:
+
+- **Markup**: Pure semantic HTML5 structured for accessibility (WCAG AA compliant).
+- **Styling**: Vanilla CSS3 using custom properties, high-contrast typography, and fluid clamp() layouts.
+- **Client Scripting**: Vanilla ES6+ JavaScript handling mobile drawer navigation, sticky header elevations, and marquee controls.
+- **Motion Accessibility**: Dedicated support for prefers-reduced-motion alongside manual pause/resume controls.
+- **Machine & Agent Discovery**: Adherence to the /llm.txt standard alongside XML sitemaps and Schema.org JSON-LD structured metadata.
+- **Hosting**: Served globally via GitHub Pages Anycast edge proxy with automated TLS encryption.
+
+---
+
+## Repository Structure
 
 `	ext
-ezhunai-website/
-├── assets/                  # High-resolution artwork, logos, and vector assets
+website/
+├── .github/
+│   └── workflows/
+│       └── ci.yml               # Automated syntax & link verification workflow
+├── assets/
+│   ├── ezhunai-brand-poster-dark.jpg   # Brand artwork (dark variant)
+│   ├── ezhunai-brand-poster-light.jpg  # Brand artwork (light variant)
+│   ├── ezhunai-hero-community.webp     # Hero photographic visual
+│   ├── ezhunai-logo.jpg                # Vector mark and circular emblem
+│   └── *.svg                           # Platform iconography
 ├── scripts/
-│   └── serve.mjs            # Zero-dependency local Node.js preview server
-├── legacy/                  # Historical backend & worker exploration code
-├── index.html               # Main landing page markup with SEO & structured data
-├── style.css                # Master stylesheet with responsive typography & animations
-├── app.js                   # Client interactions, sticky header & motion handling
-├── CNAME                    # Custom domain pointer for GitHub Pages (ezhunai.isroot.in)
-├── .nojekyll                # Bypasses Jekyll processing on GitHub Pages
-├── llm.txt                  # LLM / AI agent structured markdown specification
-├── llms-full.txt            # Extended context for AI agent discovery
-├── robots.txt               # Crawler directives
-├── sitemap.xml              # XML Sitemap
-├── package.json             # Project metadata & npm dev commands
-├── CONTRIBUTING.md          # Guide for open-source contributors
-├── CODE_OF_CONDUCT.md       # Community values & participant guidelines
-├── SECURITY.md              # Security policy
-└── LICENSE                  # MIT License
+│   ├── check-links.mjs          # Asset reference and anchor link validator
+│   └── serve.mjs                # Zero-dependency local Node.js preview server
+├── legacy/                      # Archival backend and Cloudflare Worker artifacts
+├── 404.html                     # Animated custom error page
+├── index.html                   # Main production landing page
+├── style.css                    # Production stylesheet
+├── app.js                       # Interactive client logic
+├── CNAME                        # Apex custom domain pointer
+├── .nojekyll                    # Disables Jekyll processing on GitHub Pages
+├── llm.txt                      # Concise LLM community manifest
+├── llms-full.txt                # Full-context LLM specification
+├── robots.txt                   # Search crawler directives
+├── sitemap.xml                  # Production XML sitemap
+├── package.json                 # Project scripts and manifest
+├── CONTRIBUTING.md              # Contributor guidelines
+├── CODE_OF_CONDUCT.md           # Community behavioral standards
+├── SECURITY.md                  # Vulnerability disclosure policy
+└── LICENSE                      # MIT License
 `
 
 ---
 
-## 🛠️ Local Development
+## Local Development
 
-### Option 1: Direct File Preview
-Open index.html directly in any web browser.
+The project requires no external build tools or third-party dependencies.
 
-### Option 2: Local HTTP Server (Node.js)
+### Running Locally
+
 `ash
 # Clone the repository
 git clone https://github.com/Ezhunai/website.git
 cd website
 
-# Start the local development server
+# Start the local development server (Node.js 18+)
 npm run dev
-# Or: node scripts/serve.mjs
 `
-Preview at http://localhost:3000.
+
+Visit http://localhost:3000 in your browser.
+
+### Verifying Code & Link Integrity
+
+`ash
+npm test
+`
+
+This verifies that all local file assets, CSS references, and in-page anchor links resolve properly.
 
 ---
 
-## 🌐 Community & Official Links
+## Community Channels
 
-| Channel | Link |
-| :--- | :--- |
-| **Official Website** | [ezhunai.isroot.in](https://ezhunai.isroot.in) |
-| **Discord Community** | [discord.gg/8Pd6nUmWFy](https://discord.gg/8Pd6nUmWFy) |
-| **WhatsApp Community** | [chat.whatsapp.com](https://chat.whatsapp.com/LVGGC3lCBJG78k4rkcPijB) |
-| **Instagram** | [@ezhunai](https://www.instagram.com/ezhunai/) |
-| **YouTube** | [@Ezhunai](https://www.youtube.com/@Ezhunai) |
-| **GitHub Organization** | [github.com/Ezhunai](https://github.com/Ezhunai) |
-| **Contact Email** | [ezhunai.community@gmail.com](mailto:ezhunai.community@gmail.com) |
-
----
-
-## 🤝 Contributing
-
-We warmly welcome contributions from everyone—beginners and experienced developers alike! Please read our [CONTRIBUTING.md](CONTRIBUTING.md) and [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) before submitting pull requests.
+| Channel | URL | Purpose |
+| :--- | :--- | :--- |
+| **Website** | [ezhunai.isroot.in](https://ezhunai.isroot.in) | Public portal and community introduction |
+| **Discord** | [discord.gg/8Pd6nUmWFy](https://discord.gg/8Pd6nUmWFy) | Daily discussions, voice sessions, and project collaboration |
+| **WhatsApp** | [chat.whatsapp.com](https://chat.whatsapp.com/LVGGC3lCBJG78k4rkcPijB) | Community updates and announcements |
+| **Instagram** | [@ezhunai](https://www.instagram.com/ezhunai/) | Community highlights, carousels, and visual stories |
+| **YouTube** | [@Ezhunai](https://www.youtube.com/@Ezhunai) | Recorded sessions and educational deep-dives |
+| **GitHub** | [github.com/Ezhunai](https://github.com/Ezhunai) | Open-source software, tools, and repositories |
 
 ---
 
-## 📄 License
+## Contributing
+
+Contributions from both beginners and experienced developers are welcome. Please consult [CONTRIBUTING.md](CONTRIBUTING.md) for pull request guidelines and [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) for community standards.
+
+---
+
+## Contact
+
+- **Official Email**: [ezhunai.community@gmail.com](mailto:ezhunai.community@gmail.com)
+- **Organization**: [github.com/Ezhunai](https://github.com/Ezhunai)
+
+---
+
+## License
 
 This project is licensed under the [MIT License](LICENSE).

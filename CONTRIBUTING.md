@@ -1,57 +1,58 @@
-﻿# Contributing to Ezhunai Website
+# Contributing to Ezhunai
 
-Welcome! First off, thank you for considering contributing to Ezhunai.
+Thank you for your interest in contributing to the Ezhunai project.
 
-Ezhunai is a Tamil-rooted, globally welcoming peer-to-peer learning community. We believe that **everyone has something to learn, and everyone has something to share**. This philosophy extends to our code and repositories.
+Ezhunai is a peer-to-peer learning community founded on the belief that **everyone has something to learn, and everyone has something to share**. This philosophy applies equally to our software repositories and documentation.
 
-Whether you are fixing a typo, improving mobile responsiveness, optimizing asset performance, or adding accessibility features, your contributions are appreciated.
-
----
-
-## 🧭 Code of Conduct
-
-By participating in this project, you agree to abide by our [Code of Conduct](CODE_OF_CONDUCT.md). Please treat all contributors and members with kindness, humility, and respect.
+Whether you are fixing a minor typographic issue, improving responsive behavior on mobile viewports, refining accessibility compliance, or introducing new documentation, your participation is valued.
 
 ---
 
-## 🛠️ How Can I Contribute?
+## Code of Conduct
 
-### 1. Reporting Bugs & Suggesting Enhancements
-- Check existing GitHub issues before creating a new one.
-- Provide a clear and descriptive title and reproduction steps.
-- If suggesting a design tweak, explain the reasoning and attach screenshots if relevant.
+All contributors and community participants are expected to adhere to our [Code of Conduct](CODE_OF_CONDUCT.md). Please ensure all interactions remain respectful, welcoming to beginners, and constructive.
+
+---
+
+## Ways to Contribute
+
+### 1. Reporting Issues
+- Before opening a new issue, search existing discussions and open issues to avoid duplicates.
+- Provide a clear, descriptive title and step-by-step reproduction instructions.
+- When reporting design or layout bugs, include browser details and viewport resolution.
 
 ### 2. Improving Documentation & SEO
-- Help expand documentation for beginners.
-- Help refine accessibility (ria-* labels, contrast ratios).
-- Improve SEO meta tags and LLM context files (llm.txt).
+- Refine text clarity, translations, or technical guides.
+- Expand machine-readable documentation (llm.txt, llms-full.txt).
+- Improve semantic structure and accessibility attributes (ria-* labels, contrast ratios).
 
-### 3. Making Code Contributions
-1. **Fork the Repository** and clone your fork locally:
+### 3. Submitting Code Changes
+1. **Fork and Clone**:
    `ash
    git clone https://github.com/<your-username>/website.git
    cd website
    `
-2. **Create a Feature Branch**:
+2. **Branch**:
    `ash
-   git checkout -b feature/your-improvement-name
+   git checkout -b fix/issue-description
+   # or
+   git checkout -b feat/feature-description
    `
-3. **Make and Test Your Changes**:
-   - Run 
-pm run dev to test locally.
-   - Test across multiple browser viewport widths (mobile, tablet, desktop).
-   - Ensure semantic HTML, vanilla CSS/JS principles, and WCAG AA accessibility standards are maintained.
-4. **Commit Your Changes**:
-   - Write clear, concise commit messages (e.g., ix(responsive): improve card wrapping on narrow screens).
-5. **Push and Open a Pull Request**:
-   - Push your branch to GitHub and open a Pull Request against the main branch.
-   - Describe what changed and why.
+3. **Develop & Test Locally**:
+   `ash
+   npm run dev   # Starts preview server on http://localhost:3000
+   npm test      # Runs link and asset integrity validation
+   `
+4. **Commit Conventions**:
+   Use standard conventional commits (e.g., ix(nav): correct mobile menu trap, docs: clarify local setup).
+5. **Open a Pull Request**:
+   Push your branch and open a PR against main. Automated GitHub Actions will test asset paths and syntax before review.
 
 ---
 
-## 🎨 Design & Code Principles
+## Architectural Principles
 
-- **Zero Unnecessary Dependencies**: We keep the website fast, lean, and easily maintainable with vanilla web technologies.
-- **Human & Intentional Aesthetic**: Warm, thoughtful, high-contrast typography, generous negative space, and authentic creative presentation.
-- **Privacy First**: We do not introduce trackers, analytics scripts, or forced personal data collection.
-- **Accessibility by Default**: Every interactive element should be keyboard navigable and screen-reader friendly.
+- **Zero Unnecessary Dependencies**: The website is intentionally constructed without frameworks, bundlers, or heavy npm dependencies to ensure long-term stability and fast load times.
+- **Human-Crafted Aesthetic**: Editorial typography, thoughtful whitespace, and authentic brand styling should be preserved.
+- **Accessibility by Default**: Ensure keyboard navigability (Tab, Escape) and compatibility with prefers-reduced-motion.
+- **Privacy-First**: No tracking pixels, analytics cookies, or forced user information collection.

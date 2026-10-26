@@ -1,18 +1,17 @@
-﻿# Security Policy
+# Security Policy
 
 ## Supported Versions
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 1.0.x   | :white_check_mark: |
+| Version | Supported |
+| :--- | :--- |
+| 1.x (Current) | Yes |
 
 ## Reporting a Vulnerability
 
-If you discover a potential security vulnerability within this repository or associated community assets, please report it privately:
+If you discover a security vulnerability within this repository or related Ezhunai assets:
 
-1. Reach out to the maintainers via community leadership on [Discord](https://discord.gg/8Pd6nUmWFy).
-2. Or open a confidential security advisory on GitHub under the **Security** tab if available.
+1. Do not open a public GitHub issue.
+2. Report the vulnerability confidentially via email to [ezhunai.community@gmail.com](mailto:ezhunai.community@gmail.com) with the subject line [SECURITY] Vulnerability Report.
+3. Provide a detailed summary, including steps to reproduce, affected assets, and potential impact.
 
-Please do not report security vulnerabilities through public GitHub issues.
-
-We take security seriously and will investigate and respond to valid reports promptly.
+Maintainers will acknowledge receipt within 48 hours and work with you on a responsible remediation process prior to public disclosure.
