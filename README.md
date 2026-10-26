@@ -1,13 +1,13 @@
-﻿<div align="center">
+<div align="center">
 
 # Ezhunai · எழுநை
 ### *Learn together. Build together. Rise together.*
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![GitHub Pages](https://img.shields.io/badge/Deployed%20with-GitHub%20Pages-222222?logo=github&logoColor=white)](https://ezhunai.isroot.in)
 [![Discord](https://img.shields.io/badge/Discord-Join%20Community-5865F2?logo=discord&logoColor=white)](https://discord.gg/8Pd6nUmWFy)
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-Community-25D366?logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/LVGGC3lCBJG78k4rkcPijB)
 [![Website](https://img.shields.io/badge/Website-ezhunai.isroot.in-354d30)](https://ezhunai.isroot.in)
-[![Cloudflare Pages](https://img.shields.io/badge/Deployed%20on-Cloudflare%20Pages-F38020?logo=cloudflare&logoColor=white)](https://pages.cloudflare.com)
 
 <br/>
 
@@ -54,7 +54,7 @@ Ezhunai creates a collaborative environment addressing these challenges:
 - 📱 **Mobile & Tablet Optimized**: Fluid typography, responsive grids, and touch-sensitive interactive card tracks.
 - ♿ **Accessible by Default**: Keyboard navigable menus (Escape, focus trapping), ARIA state toggles, and high-contrast editorial typography.
 - 🌿 **Motion Aware**: Respects OS motion preferences (prefers-reduced-motion: reduce) with user controls to pause/resume motion.
-- ☁️ **Cloudflare Native**: Equipped with _headers for strict security policies and asset caching, _redirects for clean community shortcuts, and wrangler.jsonc for instant deployment.
+- 🌐 **GitHub Pages Native**: Pre-configured with CNAME for ezhunai.isroot.in and .nojekyll for direct static serving.
 - 🤖 **AI & Agent Discovery**: Includes [/llm.txt](llm.txt) and [/llms-full.txt](llms-full.txt), XML sitemaps, and Schema.org JSON-LD structured data.
 
 ---
@@ -70,9 +70,8 @@ ezhunai-website/
 ├── index.html               # Main landing page markup with SEO & structured data
 ├── style.css                # Master stylesheet with responsive typography & animations
 ├── app.js                   # Client interactions, sticky header & motion handling
-├── _headers                 # Cloudflare Pages security & caching headers
-├── _redirects               # Cloudflare Pages redirects & shortlinks (/discord, etc.)
-├── wrangler.jsonc           # Cloudflare deployment manifest
+├── CNAME                    # Custom domain pointer for GitHub Pages (ezhunai.isroot.in)
+├── .nojekyll                # Bypasses Jekyll processing on GitHub Pages
 ├── llm.txt                  # LLM / AI agent structured markdown specification
 ├── llms-full.txt            # Extended context for AI agent discovery
 ├── robots.txt               # Crawler directives
@@ -105,34 +104,17 @@ Preview at http://localhost:3000.
 
 ---
 
-## ☁️ Deploying to Cloudflare Pages
-
-### Option A: Git Integration (Recommended)
-1. Go to your **Cloudflare Dashboard** → **Workers & Pages** → **Create application** → **Pages** → **Connect to Git**.
-2. Select the Ezhunai/website repository.
-3. Configure the build settings:
-   - **Framework preset**: None
-   - **Build command**: *(leave blank)*
-   - **Build output directory**: . *(root)*
-4. Click **Save and Deploy**. Cloudflare Pages will automatically read _headers and _redirects.
-
-### Option B: Cloudflare Wrangler CLI
-`ash
-npx wrangler pages deploy . --project-name=ezhunai-website
-`
-
----
-
 ## 🌐 Community & Official Links
 
 | Channel | Link |
 | :--- | :--- |
 | **Official Website** | [ezhunai.isroot.in](https://ezhunai.isroot.in) |
-| **Discord Community** | [discord.gg/8Pd6nUmWFy](https://discord.gg/8Pd6nUmWFy) or /discord |
-| **WhatsApp Community** | [chat.whatsapp.com](https://chat.whatsapp.com/LVGGC3lCBJG78k4rkcPijB) or /whatsapp |
-| **Instagram** | [@ezhunai](https://www.instagram.com/ezhunai/) or /instagram |
-| **YouTube** | [@Ezhunai](https://www.youtube.com/@Ezhunai) or /youtube |
+| **Discord Community** | [discord.gg/8Pd6nUmWFy](https://discord.gg/8Pd6nUmWFy) |
+| **WhatsApp Community** | [chat.whatsapp.com](https://chat.whatsapp.com/LVGGC3lCBJG78k4rkcPijB) |
+| **Instagram** | [@ezhunai](https://www.instagram.com/ezhunai/) |
+| **YouTube** | [@Ezhunai](https://www.youtube.com/@Ezhunai) |
 | **GitHub Organization** | [github.com/Ezhunai](https://github.com/Ezhunai) |
+| **Contact Email** | [ezhunai.community@gmail.com](mailto:ezhunai.community@gmail.com) |
 
 ---
 

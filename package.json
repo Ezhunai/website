@@ -1,12 +1,11 @@
-﻿{
+{
   "name": "ezhunai-website",
   "version": "1.0.0",
   "description": "Official website for Ezhunai (எழுநை) — A Tamil-rooted, globally welcoming peer-to-peer learning community.",
   "type": "module",
   "scripts": {
     "dev": "node scripts/serve.mjs",
-    "start": "node scripts/serve.mjs",
-    "deploy": "wrangler pages deploy ."
+    "start": "node scripts/serve.mjs"
   },
   "keywords": [
     "ezhunai",
@@ -16,6 +15,6 @@
     "learning",
     "open-source"
   ],
-  "author": "Ezhunai Community (https://ezhunai.isroot.in)",
+  "author": "Ezhunai Community (ezhunai.community@gmail.com)",
   "license": "MIT"
 }

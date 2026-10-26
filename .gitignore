@@ -23,3 +23,4 @@ extracted_temp/
 .env
 .env.local
 .env.*.local
+.wrangler/
