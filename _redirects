@@ -1,0 +1,7 @@
+﻿# Cloudflare Pages Clean Redirects & Community Shortcuts
+/home        /                                                 301
+/index       /                                                 301
+/discord     https://discord.gg/8Pd6nUmWFy                     302
+/whatsapp    https://chat.whatsapp.com/LVGGC3lCBJG78k4rkcPijB  302
+/instagram   https://www.instagram.com/ezhunai/                302
+/youtube     https://www.youtube.com/@Ezhunai                  302

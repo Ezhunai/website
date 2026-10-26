@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "node scripts/serve.mjs",
-    "start": "node scripts/serve.mjs"
+    "start": "node scripts/serve.mjs",
+    "deploy": "wrangler pages deploy ."
   },
   "keywords": [
     "ezhunai",
