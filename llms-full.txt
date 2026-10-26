@@ -1,61 +1,91 @@
-﻿# Ezhunai (எழுநை) — Complete Community & Project Specification
+# Ezhunai (எழுநை) — Complete Community & Project Specification
 
-Learn together. Build together. Rise together.
-Tamil-rooted, globally welcoming, peer-to-peer learning community.
+> Learn together. Build together. Rise together.  
+> A Tamil-rooted, globally welcoming peer-to-peer learning community.
 
-## 1. Executive Summary
-Ezhunai is a community initiative designed to bring curious people together to learn from one another, exchange knowledge, explore interests, develop skills, and collaborate on ideas.
+---
 
-It is not a conventional school, a formal educational institution, or a company selling courses. Instead, it creates an environment where people participate in learning as equals. Someone might teach a skill they have practised for years while learning something entirely new from another member.
+## 1. Executive Summary & Identity
 
-Ezhunai's identity is rooted in Tamil culture, but its community is not limited to Tamil speakers or people from Tamil Nadu. It welcomes people across cultures, languages, interests, and experience levels, using English when necessary to communicate inclusively.
+Ezhunai is an independent, non-commercial community initiative created to bring curious minds together to exchange knowledge, explore interdisciplinary interests, develop practical skills, and build collaborative projects.
 
-At its heart, Ezhunai is about people helping people grow.
+It does not operate as a conventional academy, a credential institution, or a commercial course provider. Instead, it fosters an environment of equals where members participate simultaneously as apprentices and practitioners. Someone might share a concept they have practised for years while simultaneously learning an entirely new craft from another member.
 
-## 2. Name & Meaning
-- **EZHU (எழு)**: To rise, grow, or move forward.
-- **INAI (இணை)**: To connect, unite, or come together.
-- **EZHUNAI (எழுநை)**: Rise Together.
+While deeply rooted in Tamil cultural heritage and linguistic nuance, the community maintains an open, borderless circle. We welcome individuals across all cultures, languages, and technical proficiencies, using English as an inclusive medium of collaboration whenever necessary.
 
-Proverb: "கற்றது கைமண் அளவு, கல்லாதது உலகளவு" (What we have learned is like a handful of sand; what we have yet to learn is like the size of the world).
+---
 
-## 3. Why Ezhunai Exists
-Some of the most meaningful learning happens through other people. Yet people often learn in isolation, feel they must already be skilled before participating, or struggle to find others who share their curiosity.
+## 2. Etymology & Linguistic Breakdown
 
-Problems addressed:
-- Learning alone → Learning through conversation and shared experience.
-- Fear of not knowing enough → Welcoming beginners without judgment.
-- Knowledge staying isolated → Encouraging continuous sharing.
-- Limited opportunities to practise → Providing activities, 1-minute talks, collaborative builds.
-- Strict subject silos → Interdisciplinary exploration (tech, art, business, science, writing).
+| Tamil Root | Romanization | Phonetic IPA | Semantic Origin | Community Philosophy |
+| :---: | :--- | :--- | :--- | :--- |
+| **எழு** | *Ezhu* | `/eɻʊ/` | To rise, awaken, emerge, or ascend | Perpetual curiosity and progressive advancement |
+| **இணை** | *Inai* | `/iɳaɪ̯/` | To connect, bond, or unite as equals | Peer-to-peer fellowship without hierarchy |
+| **எழுநை** | **Ezhunai** | `/eɻʊnaɪ̯/` | **Rise Together** | **A collective space where everyone learns and teaches** |
 
-## 4. Vision, Mission, and Core Values
-- **Vision**: A world where people can learn, create, and grow together without being limited by background, age, experience, or the subjects they are interested in.
-- **Mission**: To bring curious people together in an inclusive, peer-to-peer environment where they can exchange knowledge, explore ideas, develop skills, and collaborate on meaningful projects.
-- **Values**:
-  - Mutual learning (everyone is teacher & learner)
-  - Curiosity over perfection
-  - Collaboration & practical building
-  - Inclusivity & respect
-  - Privacy (no unnecessary personal disclosure required)
+Guiding Proverb:  
+> *“கற்றது கைமண் அளவு, கல்லாதது உலகளவு”*  
+> (What we have learned is like a handful of sand; what we have yet to learn is as vast as the world).  
+> Attributed to Avvaiyar (ஔவையார்), classical Tamil poet.
 
-## 5. Who Ezhunai Is For
-- The curious beginner
-- The creative explorer
-- The builder
-- The knowledge sharer
-- The "jack of all trades, master of none"
+---
 
-## 6. Community Model
-- **Membership**: Free
-- **Teaching & Learning**: Peer-to-peer, equal exchange
-- **Activities**: 1-minute talks, shared learning sessions, collaborative projects, workshops, discussions
-- **Cultural Positioning**: Tamil at our roots. The world in our circle.
+## 3. Five Core Spheres of Inquiry
 
-## 7. Official Digital Presence
-- Website: https://ezhunai.isroot.in
-- Discord: https://discord.gg/8Pd6nUmWFy
-- WhatsApp: https://chat.whatsapp.com/LVGGC3lCBJG78k4rkcPijB
-- Instagram: https://www.instagram.com/ezhunai/
-- YouTube: https://www.youtube.com/@Ezhunai
-- GitHub: https://github.com/Ezhunai
+1. **Software & Systems Engineering**  
+   Open-source software, web development, systems architecture, algorithmic thinking, and modern toolchains.
+
+2. **Visual Design & Digital Typography**  
+   Editorial layout, typography, UI/UX interaction, visual storytelling, and accessibility standards.
+
+3. **Rhetoric, Voice & Technical Writing**  
+   One-minute lightning talks, technical documentation, essay writing, public speaking, and bilingual communication.
+
+4. **Venture Dynamics & Problem Architecture**  
+   Zero-to-one product validation, ethical business models, practical problem-solving, and collaborative execution.
+
+5. **Natural Sciences & Lifelong Learning**  
+   Scientific inquiry, curiosity-driven questions, research methodology, and cross-disciplinary exploration.
+
+---
+
+## 4. Frequently Asked Questions (FAQ Corpus)
+
+### Q1: What if I am a complete beginner?
+**Answer**: Beginners are celebrated and welcomed without reservation. You do not need a portfolio, a credential, or previous expertise. Bring your curiosity and your questions; learning is treated as a continuous exploration rather than a test of credentials.
+
+### Q2: Do I need to speak Tamil?
+**Answer**: No. While Ezhunai is rooted in Tamil culture and identity, it maintains an open, global circle. Shared discussions and collaborations use English or other common languages so everyone can participate fully.
+
+### Q3: Does it cost anything to join?
+**Answer**: No. Ezhunai is 100% free. Learning has no paywall, no membership fees, and no upselling.
+
+### Q4: What if I am shy or do not have much time?
+**Answer**: You are welcome to start simply by listening and observing. You can ask a question when you feel ready and contribute whenever your schedule allows. There is no minimum participation quota.
+
+### Q5: What happens after I join?
+**Answer**: Clicking the community link opens our Discord server invite. Once you enter, you can browse channels, join ongoing discussions, participate in voice sessions, and introduce yourself at your own pace.
+
+---
+
+## 5. Technical Architecture & Engineering Ethos
+
+The Ezhunai public web portal (`ezhunai.isroot.in`) is engineered with a strict zero-dependency philosophy:
+- **Markup**: Pure semantic HTML5 (WCAG 2.1 AA accessible) with landmark elements (`<header>`, `<main>`, `<nav>`, `<footer>`).
+- **Styling**: Vanilla CSS3 using custom properties, clamp-based fluid typography, and hardware-accelerated transitions.
+- **Client Scripting**: Vanilla ES6+ JavaScript handling mobile drawer navigation, sticky header elevations, and pause-on-touch marquee rail.
+- **Accessibility**: Full respect for `prefers-reduced-motion`, high contrast ratios, touch targets >= 44px, and screen reader announcements.
+- **Machine Discovery**: Full compliance with the `/llm.txt` standard, XML sitemaps with image schemas, and Schema.org JSON-LD structured graphs (`EducationalOrganization`, `WebSite`, `BreadcrumbList`, `FAQPage`).
+- **Hosting**: Served globally via GitHub Pages Anycast edge proxy with automated TLS encryption.
+
+---
+
+## 6. Official Digital Presence
+
+- **Public Web Portal**: https://ezhunai.isroot.in
+- **Discord Community**: https://discord.gg/8Pd6nUmWFy
+- **WhatsApp Channel**: https://chat.whatsapp.com/LVGGC3lCBJG78k4rkcPijB
+- **Instagram**: https://www.instagram.com/ezhunai/
+- **YouTube**: https://www.youtube.com/@Ezhunai
+- **GitHub Organization**: https://github.com/Ezhunai
+- **Official Inquiries**: ezhunai.community@gmail.com

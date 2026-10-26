@@ -1,10 +1,21 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://ezhunai.isroot.in/</loc>
     <lastmod>2026-10-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://ezhunai.isroot.in/assets/ezhunai-hero-community.webp</image:loc>
+      <image:title>Ezhunai — Rise Together Peer-to-Peer Learning Community</image:title>
+      <image:caption>Learn together. Build together. Rise together.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ezhunai.isroot.in/assets/ezhunai-logo.jpg</image:loc>
+      <image:title>Ezhunai Emblem</image:title>
+      <image:caption>Official vector mark and circular emblem for Ezhunai</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://ezhunai.isroot.in/llm.txt</loc>

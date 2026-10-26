@@ -1,8 +1,8 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta name="theme-color" content="#f3f1eb" />
     <title>Ezhunai — Rise together | Peer-to-Peer Learning Community</title>
     <meta
@@ -11,9 +11,24 @@
     />
     <meta
       name="keywords"
-      content="Ezhunai, எழுநை, Tamil learning community, peer-to-peer learning, open source community, tech community, Tamil culture, rise together"
+      content="Ezhunai, எழுநை, Ezhu Inai, Tamil learning community, peer-to-peer learning, open source community, tech community, Tamil culture, rise together, software engineering, visual design"
     />
+    <meta name="author" content="Ezhunai Community" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large" />
+    <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large" />
+    <meta name="geo.region" content="IN" />
+    <meta name="geo.placename" content="Tamil Nadu, India" />
     <link rel="canonical" href="https://ezhunai.isroot.in/" />
+
+    <!-- Language Alternates -->
+    <link rel="alternate" hreflang="en" href="https://ezhunai.isroot.in/" />
+    <link rel="alternate" hreflang="ta" href="https://ezhunai.isroot.in/" />
+    <link rel="alternate" hreflang="x-default" href="https://ezhunai.isroot.in/" />
+
+    <!-- AI & LLM Discovery Context -->
+    <link rel="help" type="text/plain" href="https://ezhunai.isroot.in/llm.txt" title="LLM Context" />
+    <link rel="describedby" type="text/plain" href="https://ezhunai.isroot.in/llms-full.txt" title="Full LLM Documentation" />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
@@ -27,6 +42,9 @@
       property="og:image"
       content="https://ezhunai.isroot.in/assets/ezhunai-hero-community.webp"
     />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Ezhunai — Rise together peer-to-peer learning community" />
     <meta property="og:site_name" content="Ezhunai" />
     <meta property="og:locale" content="en_US" />
 
@@ -42,24 +60,43 @@
       name="twitter:image"
       content="https://ezhunai.isroot.in/assets/ezhunai-hero-community.webp"
     />
+    <meta name="twitter:image:alt" content="Ezhunai — Rise together peer-to-peer learning community" />
 
-    <!-- Favicon and Icons -->
+    <!-- Favicon and Touch Icons -->
     <link rel="icon" type="image/jpeg" href="assets/ezhunai-logo.jpg" />
     <link rel="apple-touch-icon" href="assets/ezhunai-logo.jpg" />
 
-    <!-- Structured Data (JSON-LD) for Search Engines -->
+    <!-- Structured Data (JSON-LD) for Search Engines & AI Agents -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@graph": [
           {
-            "@type": "Organization",
+            "@type": "EducationalOrganization",
             "@id": "https://ezhunai.isroot.in/#organization",
             "name": "Ezhunai",
-            "alternateName": "எழுநை",
+            "alternateName": ["எழுநை", "Ezhu Inai", "Ezhunai Community"],
             "url": "https://ezhunai.isroot.in/",
             "logo": "https://ezhunai.isroot.in/assets/ezhunai-logo.jpg",
-            "description": "Tamil-rooted, globally welcoming, peer-to-peer learning community built around the belief that everyone has something to learn, and everyone has something to share.",
+            "image": "https://ezhunai.isroot.in/assets/ezhunai-hero-community.webp",
+            "description": "Ezhunai (எழுநை) is a Tamil-rooted, globally welcoming peer-to-peer learning community built around the belief that everyone has something to learn, and everyone has something to share.",
+            "slogan": "Learn together. Build together. Rise together.",
+            "knowsAbout": [
+              "Peer-to-Peer Learning",
+              "Open Source Software",
+              "Tamil Language and Culture",
+              "Web Development",
+              "Visual Design and Digital Typography",
+              "Public Speaking and Storytelling",
+              "Entrepreneurship and Product Building",
+              "Lifelong Learning"
+            ],
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "email": "ezhunai.community@gmail.com",
+              "contactType": "community inquiries",
+              "availableLanguage": ["Tamil", "English"]
+            },
             "sameAs": [
               "https://discord.gg/8Pd6nUmWFy",
               "https://chat.whatsapp.com/LVGGC3lCBJG78k4rkcPijB",
@@ -73,10 +110,88 @@
             "@id": "https://ezhunai.isroot.in/#website",
             "url": "https://ezhunai.isroot.in/",
             "name": "Ezhunai",
+            "alternateName": "எழுநை",
             "description": "Learn together. Build together. Rise together.",
+            "inLanguage": ["en", "ta"],
             "publisher": {
               "@id": "https://ezhunai.isroot.in/#organization"
             }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://ezhunai.isroot.in/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://ezhunai.isroot.in/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Our Story",
+                "item": "https://ezhunai.isroot.in/#story"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Community",
+                "item": "https://ezhunai.isroot.in/#explore"
+              },
+              {
+                "@type": "ListItem",
+                "position": 4,
+                "name": "FAQ",
+                "item": "https://ezhunai.isroot.in/#questions"
+              }
+            ]
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://ezhunai.isroot.in/#faq",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "What if I’m a complete beginner?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "You’re welcome here. Bring your questions and your curiosity. You don’t need a portfolio, a certificate, or prior experience."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Do I need to speak Tamil?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "No. Ezhunai has Tamil roots and welcomes everyone. Shared conversations can use English or another common language so people can participate together."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Does it cost anything to join?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "No. Ezhunai is a free community. Learning and participation don’t depend on paying for access."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What if I’m shy or don’t have much time?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Start by listening. Ask a question when you’re ready, and contribute when you can. You don’t need to participate every day."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What happens after I join?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The join button opens our Discord invitation directly. Accept the invite to join, explore the conversations, and introduce yourself when you feel comfortable."
+                }
+              }
+            ]
           }
         ]
       }

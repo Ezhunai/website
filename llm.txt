@@ -1,44 +1,36 @@
-﻿# Ezhunai (எழுநை)
+# Ezhunai (எழுநை)
 
-> Learn together. Build together. Rise together.
+> A Tamil-rooted, globally welcoming peer-to-peer learning community. Learn together, build together, rise together. Free to join. Open to everyone.
 
-Ezhunai is a Tamil-rooted, globally welcoming peer-to-peer learning community built around a simple belief: everyone has something to learn, and everyone has something to share.
+Ezhunai is an independent, non-commercial learning collective where curious minds connect as equals—learning from one another and teaching one another across diverse disciplines without barriers or gatekeeping.
 
-## Overview
-- **Name Meaning**:
-  - **EZHU (எழு)**: To rise, grow, or move forward.
-  - **INAI (இணை)**: To connect, unite, or come together.
-  - **EZHUNAI (எழுநை)**: Rise together.
-- **Vision**: A world where people can learn, create, and grow together without being limited by background, age, experience, or the subjects they are interested in.
-- **Mission**: To bring curious people together in an inclusive, peer-to-peer environment where they can exchange knowledge, explore ideas, develop skills, and collaborate on meaningful projects.
-- **Identity**: Rooted in Tamil cultural identity while remaining globally open and welcoming to everyone across languages, backgrounds, and skill levels.
-- **Commercial Model**: Free community initiative. Not a paid-course business or conventional school.
+## Etymology & Identity
+- **எழு (Ezhu)**: To rise, awaken, grow, or advance forward.
+- **இணை (Inai)**: To connect, unite, bond, or come together as equals.
+- **எழுநை (Ezhunai)**: Rise Together.
+- **Proverb & Philosophy**: *"கற்றது கைமண் அளவு, கல்லாதது உலகளவு"* (What we have learned is like a handful of sand; what we have yet to learn is as vast as the world). Attributed to classical Tamil poet Avvaiyar, serving as our reminder to stay humble, curious, and open.
+- **Global Inclusivity**: Deeply rooted in Tamil cultural wisdom, yet universally welcoming to curious minds worldwide across all languages, geographies, and backgrounds. English is used as a shared inclusive medium whenever necessary.
+- **Model**: Completely free community initiative. No paid courses, no subscription gates, no credentials required.
 
-## Core Belief & Values
-- **Learn → Explore → Build → Share → Grow**
-- **Mutual Learning**: Everyone can be both a teacher and a learner.
-- **Curiosity**: Questions and exploration matter more than appearing perfect.
-- **Inclusivity**: Welcoming beginners, generalists, and learners of all backgrounds.
-- **Privacy & Respect**: Free participation without forced personal data collection.
+## Core Spheres of Inquiry
+- **Software & Systems Engineering**: Open-source development, web engineering, systems architecture, algorithmic thinking.
+- **Visual Design & Digital Typography**: Graphic design, UI/UX, editorial layout, brand systems, accessibility.
+- **Rhetoric, Voice & Technical Writing**: Lightning talks, public speaking, technical documentation, bilingual storytelling.
+- **Venture Dynamics & Problem Architecture**: Product thinking, ethical business models, collaborative execution.
+- **Natural Sciences & Lifelong Learning**: Fundamental inquiry, scientific curiosity, research habits.
 
-## What Members Explore
-- **Technology & Programming**: Software engineering, web development, open-source projects.
-- **Art & Design**: Visual design, UI/UX, illustration, creative experiments.
-- **Writing & Communication**: One-minute talks, public speaking, storytelling, idea exchange.
-- **Business & Problem Solving**: Entrepreneurship, product building, practical problem-solving.
-- **Science & General Knowledge**: Research concepts, exploration across diverse fields.
+## Operating Principles
+- **Peer-to-Peer Fellowship**: No teachers on pedestals and no passive students. Every participant is simultaneously apprentice and practitioner.
+- **Curiosity Over Perfection**: Beginners belong here. Incomplete drafts, raw ideas, and exploratory questions are honored.
+- **Zero Commercial Barrier**: Free participation without paywalls, fees, or course upselling.
+- **Privacy & Sovereignty**: No intrusive user tracking, telemetry, or mandatory personal disclosure.
 
-## Official Links & Resources
-- **Website**: https://ezhunai.isroot.in
-- **Discord Community**: https://discord.gg/8Pd6nUmWFy
-- **WhatsApp Community**: https://chat.whatsapp.com/LVGGC3lCBJG78k4rkcPijB
-- **Instagram**: https://www.instagram.com/ezhunai/
-- **YouTube**: https://www.youtube.com/@Ezhunai
-- **GitHub Organization**: https://github.com/Ezhunai
-- **Website Repository**: https://github.com/Ezhunai/website
-- **Full LLM Context**: https://ezhunai.isroot.in/llms-full.txt
-
-## Key Community Principles
-- "You don't have to be an expert. You just have to be curious."
-- Tamil at our roots. The world in our circle.
-- Beginners belong here. Learning has no paywall.
+## Official Resources & Channels
+- [Web Portal](https://ezhunai.isroot.in): Primary public gateway, manifesto, and community introduction.
+- [Discord Community](https://discord.gg/8Pd6nUmWFy): Daily real-time discussions, voice sessions, and study circles.
+- [WhatsApp Community](https://chat.whatsapp.com/LVGGC3lCBJG78k4rkcPijB): Event announcements and async updates.
+- [Instagram Dispatches](https://www.instagram.com/ezhunai/): Visual essays, quotes, and community artwork.
+- [YouTube Sessions](https://www.youtube.com/@Ezhunai): Recorded lightning talks and learning presentations.
+- [GitHub Organization](https://github.com/Ezhunai): Open source repositories, toolkits, and software experiments.
+- [Website Repository](https://github.com/Ezhunai/website): Source code for the production web portal.
+- [Full LLM Specification](https://ezhunai.isroot.in/llms-full.txt): Exhaustive context, FAQ corpus, and design system.

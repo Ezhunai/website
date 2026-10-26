@@ -1,10 +1,39 @@
-﻿# robots.txt for https://ezhunai.isroot.in
+# robots.txt for https://ezhunai.isroot.in
 User-agent: *
+Allow: /
+
+# Search Engine Crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+# AI Crawlers & LLM Retrieval Agents
+User-agent: Google-Extended
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: CCBot
 Allow: /
 
 # Sitemaps
 Sitemap: https://ezhunai.isroot.in/sitemap.xml
 
-# LLM & AI agent discovery
-# Context file available at: https://ezhunai.isroot.in/llm.txt
-# Full LLM documentation at: https://ezhunai.isroot.in/llms-full.txt
+# LLM & AI Machine Discovery
+# Context Manifest: https://ezhunai.isroot.in/llm.txt
+# Full Specification: https://ezhunai.isroot.in/llms-full.txt

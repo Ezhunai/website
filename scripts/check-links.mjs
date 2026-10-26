@@ -91,6 +91,23 @@ for (const relFile of htmlFiles) {
     }
   }
 
+  // Check JSON-LD Structured Data
+  const jsonLdMatch = html.match(/<script\s+type=["']application\/ld\+json["']>([\s\S]*?)<\/script>/i);
+  if (jsonLdMatch) {
+    try {
+      const parsed = JSON.parse(jsonLdMatch[1]);
+      if (parsed["@graph"]) {
+        const types = parsed["@graph"].map((item) => item["@type"]);
+        console.log(`  ✓ Valid Schema.org JSON-LD graph (${types.join(", ")})`);
+      } else {
+        console.log(`  ✓ Valid Schema.org JSON-LD (${parsed["@type"]})`);
+      }
+    } catch (err) {
+      console.error(`  ❌ Invalid JSON-LD structured data in ${relFile}: ${err.message}`);
+      hasErrors = true;
+    }
+  }
+
   // Check CSS assets
   if (relFile === "index.html") {
     const cssPath = path.join(root, "style.css");
