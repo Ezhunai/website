@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/ezhunai-brand-poster-light.jpg" alt="Ezhunai — Learn together. Build together. Rise together." width="100%" />
+<img src="https://raw.githubusercontent.com/Ezhunai/website/main/assets/ezhunai-brand-poster-light.jpg" alt="Ezhunai — Learn together. Build together. Rise together." width="100%" />
 
 <br/><br/>
 
