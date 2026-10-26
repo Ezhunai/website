@@ -1,0 +1,42 @@
+name: CI & Integrity Check
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  check-links-and-integrity:
+    name: Verify Links, Assets & Code Integrity
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Verify JavaScript syntax
+        run: |
+          node -c app.js
+          node -c scripts/serve.mjs
+          node -c scripts/check-links.mjs
+
+      - name: Run link & asset integrity checks
+        run: node scripts/check-links.mjs
+
+      - name: Test preview server response
+        run: |
+          node scripts/serve.mjs &
+          SERVER_PID=$!
+          sleep 2
+          curl -f http://localhost:3000/ > /dev/null
+          curl -f http://localhost:3000/404.html > /dev/null
+          curl -f http://localhost:3000/llm.txt > /dev/null
+          kill $SERVER_PID

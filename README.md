@@ -5,6 +5,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![GitHub Pages](https://img.shields.io/badge/Deployed%20with-GitHub%20Pages-222222?logo=github&logoColor=white)](https://ezhunai.isroot.in)
+[![CI Check](https://github.com/Ezhunai/website/actions/workflows/ci.yml/badge.svg)](https://github.com/Ezhunai/website/actions/workflows/ci.yml)
 [![Discord](https://img.shields.io/badge/Discord-Join%20Community-5865F2?logo=discord&logoColor=white)](https://discord.gg/8Pd6nUmWFy)
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-Community-25D366?logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/LVGGC3lCBJG78k4rkcPijB)
 [![Website](https://img.shields.io/badge/Website-ezhunai.isroot.in-354d30)](https://ezhunai.isroot.in)
