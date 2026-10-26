@@ -1,0 +1,61 @@
+﻿# Ezhunai (எழுநை) — Complete Community & Project Specification
+
+Learn together. Build together. Rise together.
+Tamil-rooted, globally welcoming, peer-to-peer learning community.
+
+## 1. Executive Summary
+Ezhunai is a community initiative designed to bring curious people together to learn from one another, exchange knowledge, explore interests, develop skills, and collaborate on ideas.
+
+It is not a conventional school, a formal educational institution, or a company selling courses. Instead, it creates an environment where people participate in learning as equals. Someone might teach a skill they have practised for years while learning something entirely new from another member.
+
+Ezhunai's identity is rooted in Tamil culture, but its community is not limited to Tamil speakers or people from Tamil Nadu. It welcomes people across cultures, languages, interests, and experience levels, using English when necessary to communicate inclusively.
+
+At its heart, Ezhunai is about people helping people grow.
+
+## 2. Name & Meaning
+- **EZHU (எழு)**: To rise, grow, or move forward.
+- **INAI (இணை)**: To connect, unite, or come together.
+- **EZHUNAI (எழுநை)**: Rise Together.
+
+Proverb: "கற்றது கைமண் அளவு, கல்லாதது உலகளவு" (What we have learned is like a handful of sand; what we have yet to learn is like the size of the world).
+
+## 3. Why Ezhunai Exists
+Some of the most meaningful learning happens through other people. Yet people often learn in isolation, feel they must already be skilled before participating, or struggle to find others who share their curiosity.
+
+Problems addressed:
+- Learning alone → Learning through conversation and shared experience.
+- Fear of not knowing enough → Welcoming beginners without judgment.
+- Knowledge staying isolated → Encouraging continuous sharing.
+- Limited opportunities to practise → Providing activities, 1-minute talks, collaborative builds.
+- Strict subject silos → Interdisciplinary exploration (tech, art, business, science, writing).
+
+## 4. Vision, Mission, and Core Values
+- **Vision**: A world where people can learn, create, and grow together without being limited by background, age, experience, or the subjects they are interested in.
+- **Mission**: To bring curious people together in an inclusive, peer-to-peer environment where they can exchange knowledge, explore ideas, develop skills, and collaborate on meaningful projects.
+- **Values**:
+  - Mutual learning (everyone is teacher & learner)
+  - Curiosity over perfection
+  - Collaboration & practical building
+  - Inclusivity & respect
+  - Privacy (no unnecessary personal disclosure required)
+
+## 5. Who Ezhunai Is For
+- The curious beginner
+- The creative explorer
+- The builder
+- The knowledge sharer
+- The "jack of all trades, master of none"
+
+## 6. Community Model
+- **Membership**: Free
+- **Teaching & Learning**: Peer-to-peer, equal exchange
+- **Activities**: 1-minute talks, shared learning sessions, collaborative projects, workshops, discussions
+- **Cultural Positioning**: Tamil at our roots. The world in our circle.
+
+## 7. Official Digital Presence
+- Website: https://ezhunai.isroot.in
+- Discord: https://discord.gg/8Pd6nUmWFy
+- WhatsApp: https://chat.whatsapp.com/LVGGC3lCBJG78k4rkcPijB
+- Instagram: https://www.instagram.com/ezhunai/
+- YouTube: https://www.youtube.com/@Ezhunai
+- GitHub: https://github.com/Ezhunai

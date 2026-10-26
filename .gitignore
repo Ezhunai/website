@@ -1,0 +1,25 @@
+﻿# System & Editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Node & Build artifacts
+node_modules/
+dist/
+build/
+*.log
+
+# AI & Canvas temporary artifacts
+.openai/
+hosting.json
+*.tmp
+temp/
+extracted_temp/
+
+# Environment
+.env
+.env.local
+.env.*.local

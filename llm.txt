@@ -1,0 +1,44 @@
+﻿# Ezhunai (எழுநை)
+
+> Learn together. Build together. Rise together.
+
+Ezhunai is a Tamil-rooted, globally welcoming peer-to-peer learning community built around a simple belief: everyone has something to learn, and everyone has something to share.
+
+## Overview
+- **Name Meaning**:
+  - **EZHU (எழு)**: To rise, grow, or move forward.
+  - **INAI (இணை)**: To connect, unite, or come together.
+  - **EZHUNAI (எழுநை)**: Rise together.
+- **Vision**: A world where people can learn, create, and grow together without being limited by background, age, experience, or the subjects they are interested in.
+- **Mission**: To bring curious people together in an inclusive, peer-to-peer environment where they can exchange knowledge, explore ideas, develop skills, and collaborate on meaningful projects.
+- **Identity**: Rooted in Tamil cultural identity while remaining globally open and welcoming to everyone across languages, backgrounds, and skill levels.
+- **Commercial Model**: Free community initiative. Not a paid-course business or conventional school.
+
+## Core Belief & Values
+- **Learn → Explore → Build → Share → Grow**
+- **Mutual Learning**: Everyone can be both a teacher and a learner.
+- **Curiosity**: Questions and exploration matter more than appearing perfect.
+- **Inclusivity**: Welcoming beginners, generalists, and learners of all backgrounds.
+- **Privacy & Respect**: Free participation without forced personal data collection.
+
+## What Members Explore
+- **Technology & Programming**: Software engineering, web development, open-source projects.
+- **Art & Design**: Visual design, UI/UX, illustration, creative experiments.
+- **Writing & Communication**: One-minute talks, public speaking, storytelling, idea exchange.
+- **Business & Problem Solving**: Entrepreneurship, product building, practical problem-solving.
+- **Science & General Knowledge**: Research concepts, exploration across diverse fields.
+
+## Official Links & Resources
+- **Website**: https://ezhunai.isroot.in
+- **Discord Community**: https://discord.gg/8Pd6nUmWFy
+- **WhatsApp Community**: https://chat.whatsapp.com/LVGGC3lCBJG78k4rkcPijB
+- **Instagram**: https://www.instagram.com/ezhunai/
+- **YouTube**: https://www.youtube.com/@Ezhunai
+- **GitHub Organization**: https://github.com/Ezhunai
+- **Website Repository**: https://github.com/Ezhunai/website
+- **Full LLM Context**: https://ezhunai.isroot.in/llms-full.txt
+
+## Key Community Principles
+- "You don't have to be an expert. You just have to be curious."
+- Tamil at our roots. The world in our circle.
+- Beginners belong here. Learning has no paywall.

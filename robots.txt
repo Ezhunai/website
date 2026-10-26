@@ -1,0 +1,10 @@
+﻿# robots.txt for https://ezhunai.isroot.in
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://ezhunai.isroot.in/sitemap.xml
+
+# LLM & AI agent discovery
+# Context file available at: https://ezhunai.isroot.in/llm.txt
+# Full LLM documentation at: https://ezhunai.isroot.in/llms-full.txt
