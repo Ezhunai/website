@@ -199,42 +199,35 @@
       }
     </script>
 
-    <!-- Preconnect to Google Fonts for parallel zero-latency handshake -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
-    <!-- Non-render-blocking Web Font Loading -->
+    <!-- Preload Self-Hosted Modern Web Font for Instant Zero-Layout-Shift FCP -->
     <link
       rel="preload"
-      as="style"
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap"
+      href="assets/dmsans-latin.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
     />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap"
-      media="print"
-      onload="this.media='all'"
-    />
-    <noscript>
-      <link
-        rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap"
-      />
-    </noscript>
 
-    <!-- Preload LCP Hero Image for mobile and desktop -->
+    <!-- Preload LCP Hero Image for mobile and desktop viewports -->
+    <link
+      rel="preload"
+      as="image"
+      href="assets/ezhunai-hero-community-xs.webp"
+      media="(max-width: 540px)"
+      fetchpriority="high"
+    />
     <link
       rel="preload"
       as="image"
       href="assets/ezhunai-hero-community-sm.webp"
-      media="(max-width: 768px)"
+      media="(min-width: 541px) and (max-width: 820px)"
       fetchpriority="high"
     />
     <link
       rel="preload"
       as="image"
       href="assets/ezhunai-hero-community.webp"
-      media="(min-width: 769px)"
+      media="(min-width: 821px)"
       fetchpriority="high"
     />
 
@@ -297,7 +290,13 @@
         <figure class="hero-brand">
           <picture>
             <source
-              media="(max-width: 768px)"
+              media="(max-width: 540px)"
+              srcset="assets/ezhunai-hero-community-xs.webp"
+              width="520"
+              height="347"
+            />
+            <source
+              media="(max-width: 820px)"
               srcset="assets/ezhunai-hero-community-sm.webp"
               width="768"
               height="512"
@@ -697,10 +696,11 @@
     <footer>
       <a class="wordmark" href="#home"
         ><img
-          src="assets/ezhunai-logo.jpg"
+          src="assets/ezhunai-logo-100.webp"
           alt="Ezhunai logo"
           width="44"
           height="44"
+          loading="lazy"
         /><span class="brand-name">Ezhunai</span></a
       >
       <p>Learn. Share. Connect. Rise.</p>

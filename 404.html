@@ -14,28 +14,14 @@
     <link rel="icon" href="/favicon.ico" sizes="48x48" />
     <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-    <!-- Preconnect to Google Fonts for parallel zero-latency handshake -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
-    <!-- Non-render-blocking Web Font Loading -->
+    <!-- Preload Self-Hosted Modern Web Font for Instant Zero-Layout-Shift FCP -->
     <link
       rel="preload"
-      as="style"
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap"
+      href="assets/dmsans-latin.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
     />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap"
-      media="print"
-      onload="this.media='all'"
-    />
-    <noscript>
-      <link
-        rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap"
-      />
-    </noscript>
 
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -99,10 +85,11 @@
     <footer>
       <a class="wordmark" href="/">
         <img
-          src="assets/ezhunai-logo.jpg"
+          src="assets/ezhunai-logo-100.webp"
           alt="Ezhunai logo"
           width="44"
           height="44"
+          loading="lazy"
         />
         <span class="brand-name">Ezhunai</span>
       </a>
