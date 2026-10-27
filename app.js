@@ -1,4 +1,4 @@
-﻿// Ezhunai Website Client Interactions
+// Ezhunai Website Client Interactions
 (() => {
   "use strict";
 
@@ -13,15 +13,12 @@
     yearEl.textContent = new Date().getFullYear();
   }
 
-  // 2. Sticky Header Elevation on Scroll
+  // 2. Sticky Header Elevation on Scroll (Optimized against forced reflows)
   if (header) {
     let ticking = false;
     const updateHeader = () => {
-      if (window.scrollY > 12) {
-        header.classList.add("is-scrolled");
-      } else {
-        header.classList.remove("is-scrolled");
-      }
+      const isScrolled = (window.pageYOffset || document.documentElement.scrollTop || 0) > 12;
+      header.classList.toggle("is-scrolled", isScrolled);
       ticking = false;
     };
 
@@ -35,7 +32,13 @@
       },
       { passive: true },
     );
-    updateHeader();
+
+    // Defer initial check to avoid forced reflow during critical rendering path
+    if ("requestIdleCallback" in window) {
+      window.requestIdleCallback(updateHeader);
+    } else {
+      setTimeout(updateHeader, 120);
+    }
   }
 
   // 3. Accessible Mobile Navigation
@@ -133,53 +136,67 @@
   }
 
   // 6. Seamless Infinite Card Rails with Touch & Reduced-Motion Handling
-  document.querySelectorAll(".card-rail").forEach((rail) => {
-    const track = rail.querySelector(".card-track");
-    if (!track || !track.firstElementChild) return;
+  const initCardRails = () => {
+    document.querySelectorAll(".card-rail").forEach((rail) => {
+      const track = rail.querySelector(".card-track");
+      if (!track || !track.firstElementChild) return;
 
-    // Duplicate track content once for continuous CSS translation
-    const duplicate = track.firstElementChild.cloneNode(true);
-    duplicate.classList.add("card-duplicate");
-    duplicate.setAttribute("aria-hidden", "true");
-    duplicate.setAttribute("inert", "");
-    track.appendChild(duplicate);
-    rail.classList.add("is-ready");
+      // On mobile screens (<=720px), cards display as a native responsive grid
+      if (window.innerWidth > 720 && !prefersReducedMotion.matches) {
+        if (!track.querySelector(".card-duplicate")) {
+          const duplicate = track.firstElementChild.cloneNode(true);
+          duplicate.classList.add("card-duplicate");
+          duplicate.setAttribute("aria-hidden", "true");
+          duplicate.setAttribute("inert", "");
+          track.appendChild(duplicate);
+        }
+      }
+      rail.classList.add("is-ready");
 
-    // Controls: Pause / Resume motion button
-    const motionBtn = document.querySelector(`[data-motion="${rail.id}"]`);
-    const updateMotionBtn = () => {
-      if (motionBtn) motionBtn.hidden = prefersReducedMotion.matches;
-    };
-    updateMotionBtn();
-    prefersReducedMotion.addEventListener("change", updateMotionBtn);
+      // Controls: Pause / Resume motion button
+      const motionBtn = document.querySelector(`[data-motion="${rail.id}"]`);
+      const updateMotionBtn = () => {
+        if (motionBtn) {
+          motionBtn.hidden = prefersReducedMotion.matches || window.innerWidth <= 720;
+        }
+      };
+      updateMotionBtn();
+      prefersReducedMotion.addEventListener("change", updateMotionBtn);
 
-    motionBtn?.addEventListener("click", () => {
-      const isPaused = rail.classList.toggle("is-paused");
-      motionBtn.setAttribute("aria-pressed", String(isPaused));
-      motionBtn.textContent = isPaused ? "Resume motion" : "Pause motion";
+      motionBtn?.addEventListener("click", () => {
+        const isPaused = rail.classList.toggle("is-paused");
+        motionBtn.setAttribute("aria-pressed", String(isPaused));
+        motionBtn.textContent = isPaused ? "Resume motion" : "Pause motion";
+      });
+
+      // Touch feedback: pause on touch for easy reading on mobile
+      let touchResumeTimer;
+      rail.addEventListener(
+        "touchstart",
+        () => {
+          clearTimeout(touchResumeTimer);
+          rail.classList.add("is-paused");
+        },
+        { passive: true },
+      );
+
+      rail.addEventListener(
+        "touchend",
+        () => {
+          touchResumeTimer = setTimeout(() => {
+            if (!motionBtn || motionBtn.getAttribute("aria-pressed") !== "true") {
+              rail.classList.remove("is-paused");
+            }
+          }, 1200);
+        },
+        { passive: true },
+      );
     });
+  };
 
-    // Touch feedback: pause on touch for easy reading on mobile
-    let touchResumeTimer;
-    rail.addEventListener(
-      "touchstart",
-      () => {
-        clearTimeout(touchResumeTimer);
-        rail.classList.add("is-paused");
-      },
-      { passive: true },
-    );
-
-    rail.addEventListener(
-      "touchend",
-      () => {
-        touchResumeTimer = setTimeout(() => {
-          if (!motionBtn || motionBtn.getAttribute("aria-pressed") !== "true") {
-            rail.classList.remove("is-paused");
-          }
-        }, 1200);
-      },
-      { passive: true },
-    );
-  });
+  if ("requestIdleCallback" in window) {
+    window.requestIdleCallback(initCardRails);
+  } else {
+    setTimeout(initCardRails, 150);
+  }
 })();

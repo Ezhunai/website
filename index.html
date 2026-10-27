@@ -199,14 +199,52 @@
       }
     </script>
 
-    <link rel="preload" as="image" href="assets/ezhunai-paper-olive-bg.webp" />
+    <!-- Preconnect to Google Fonts for parallel zero-latency handshake -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Non-render-blocking Web Font Loading -->
+    <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap"
+      media="print"
+      onload="this.media='all'"
+    />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap"
+      />
+    </noscript>
+
+    <!-- Preload LCP Hero Image for mobile and desktop -->
+    <link
+      rel="preload"
+      as="image"
+      href="assets/ezhunai-hero-community-sm.webp"
+      media="(max-width: 768px)"
+      fetchpriority="high"
+    />
+    <link
+      rel="preload"
+      as="image"
+      href="assets/ezhunai-hero-community.webp"
+      media="(min-width: 769px)"
+      fetchpriority="high"
+    />
+
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
       <a class="wordmark" href="#home" aria-label="Ezhunai home"
         ><img
-          src="assets/ezhunai-logo.jpg"
+          src="assets/ezhunai-logo-100.webp"
           alt=""
           width="44"
           height="44"
@@ -257,13 +295,21 @@
           >
         </div>
         <figure class="hero-brand">
-          <img
-            src="assets/ezhunai-hero-community.webp"
-            alt="Four young people sharing ideas around a laptop at a café"
-            width="1536"
-            height="1024"
-            fetchpriority="high"
-          />
+          <picture>
+            <source
+              media="(max-width: 768px)"
+              srcset="assets/ezhunai-hero-community-sm.webp"
+              width="768"
+              height="512"
+            />
+            <img
+              src="assets/ezhunai-hero-community.webp"
+              alt="Four young people sharing ideas around a laptop at a café"
+              width="1536"
+              height="1024"
+              fetchpriority="high"
+            />
+          </picture>
         </figure>
       </section>
       <section class="story section" id="story">
@@ -625,10 +671,11 @@
         <div class="join-panel">
           <img
             class="join-logo"
-            src="assets/ezhunai-logo.jpg"
+            src="assets/ezhunai-logo-100.webp"
             alt=""
             width="52"
             height="52"
+            loading="lazy"
           />
           <p class="section-kicker">YOUR NEXT STEP STARTS HERE</p>
           <h2>Let’s rise. Together.</h2>
@@ -679,6 +726,6 @@
       </div>
       <small>© <span id="year">2026</span> Ezhunai. Built around people.</small>
     </footer>
-    <script src="app.js"></script>
+    <script src="app.js" defer></script>
   </body>
 </html>

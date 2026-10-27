@@ -14,13 +14,35 @@
     <link rel="icon" href="/favicon.ico" sizes="48x48" />
     <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-    <link rel="preload" as="image" href="assets/ezhunai-paper-olive-bg.webp" />
+    <!-- Preconnect to Google Fonts for parallel zero-latency handshake -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Non-render-blocking Web Font Loading -->
+    <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap"
+      media="print"
+      onload="this.media='all'"
+    />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap"
+      />
+    </noscript>
+
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
       <a class="wordmark" href="/" aria-label="Ezhunai home">
-        <img src="assets/ezhunai-logo.jpg" alt="" width="44" height="44" />
+        <img src="assets/ezhunai-logo-100.webp" alt="" width="44" height="44" />
         <span class="brand-name">Ezhunai</span>
       </a>
       <nav id="main-navigation" aria-label="Main navigation">
@@ -114,6 +136,6 @@
       <small>© <span id="year">2026</span> Ezhunai. Built around people.</small>
     </footer>
 
-    <script src="app.js"></script>
+    <script src="app.js" defer></script>
   </body>
 </html>
